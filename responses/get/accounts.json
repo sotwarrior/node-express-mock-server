@@ -8,7 +8,10 @@
         "contentType": "application/json; charset=UTF-8"
     },
     "delay": 3000,
-    "body": {
-        "message": "Hello World"
-    }
+    "body": [
+        {
+            "name": "admin",
+            "password": "password"
+        }
+    ]
 }
