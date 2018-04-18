@@ -1,0 +1,14 @@
+{
+    "status": 300,
+    "headers": {
+        "host": "localhost:3001",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "contentType": "application/json; charset=UTF-8"
+    },
+    "delay": 3000,
+    "body": {
+        "message": "Hello World"
+    }
+}
