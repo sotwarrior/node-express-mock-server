@@ -1,5 +1,5 @@
 {
-    "status": 200,
+    "status": 300,
     "headers": {
         "host": "localhost:3001",
         "connection": "keep-alive",
