@@ -10,17 +10,17 @@ ${methodOfRequesting} - (the method is equeal to the folder inside 'responses' f
 ## Exapmle of the document (you should send it as a body of the request) which you will be adding to 'responses' folder:
 ```javascript
 {
-    "status": 300, -- status code of the response you will get
-    "headers": { -- headers that you will get
+    "status": 300, //-- status code of the response you will get
+    "headers": { //-- headers that you will get
         "host": "localhost:3001",
         "connection": "keep-alive",
         "cache-control": "max-age=0",
         "upgrade-insecure-requests": "1",
         "contentType": "application/json; charset=UTF-8"
     },
-    "delay": 1000, -- delay with which you will get the response
+    "delay": 1000, //-- delay with which you will get the response
     "body": {
-        "message": "Posted successfully!" -- body that you will get
+        "message": "Posted successfully!" //-- body that you will get
     }
 }
 ```
